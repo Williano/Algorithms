@@ -1,4 +1,4 @@
-from linear_search import linear_search
+from linear_search import LinearSearch
 
 
 def main():
@@ -7,9 +7,9 @@ def main():
 
     item = 5
 
-    location = linear_search(data=numbers, item=item)
+    location = LinearSearch(data=numbers, item=item)
 
-    print(location)
+    print(location.search())
 
 
 if __name__ == "__main__":
