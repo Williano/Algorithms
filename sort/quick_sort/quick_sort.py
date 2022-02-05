@@ -17,9 +17,9 @@ class QuickSort:
 
         pivot: int = data[0]
 
-        numbers_less_than_pivot = [num for num in data[1:] if num < pivot]
+        numbers_less_than_pivot: List = [num for num in data[1:] if num < pivot]
 
-        numbers_greater_than_pivot = [num for num in data[1:] if num > pivot]
+        numbers_greater_than_pivot: List = [num for num in data[1:] if num > pivot]
 
         return (
             self.quick_sort(numbers_less_than_pivot)
