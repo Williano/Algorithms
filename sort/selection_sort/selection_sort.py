@@ -28,7 +28,7 @@ class SelectionSort:
 
         # Goes through the list and finds the smallest item
         # and add it to the new array.
-        for element in range(len(self.data)):
+        for _ in range(len(self.data)):
 
             smallest_number_index = self.find_smallest_number()
             new_list.append(self.data.pop(smallest_number_index))
