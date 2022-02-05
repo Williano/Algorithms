@@ -6,10 +6,6 @@ class QuickSort:
     Quick Sort implementation
     """
 
-    def __init__(self) -> None:
-        """Initializes quicksort instnace with data"""
-        pass
-
     def quick_sort(self, data: List):
         """
         Sorts the data using quicksort
