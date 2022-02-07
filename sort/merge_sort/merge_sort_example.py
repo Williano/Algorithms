@@ -14,7 +14,8 @@ def main():
     m_sort = MergeSort()
 
     for test_case in test_cases:
-        print(m_sort.merge_sort(test_case))
+        print(f"Version 1: {m_sort.merge_sort(test_case)}")
+        print(f"Version 2: {m_sort.merge_sort_version_2(test_case)}")
 
 
 if __name__ == "__main__":
