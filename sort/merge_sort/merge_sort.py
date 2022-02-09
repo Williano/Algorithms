@@ -28,6 +28,7 @@ class MergeSort:
         left_split: List = data[:middle_index_of_list]
         right_split: List = data[middle_index_of_list:]
 
+
         self.merge_sort(left_split)
         self.merge_sort(right_split)
 
