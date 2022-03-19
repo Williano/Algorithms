@@ -5,6 +5,11 @@ class BinarySearch:
         self.item = item
 
     def binary_search(self):
+        """_summary_
+
+        Returns:
+            _type_: _description_
+        """
 
         low = 0
         high = len(self.data) - 1
