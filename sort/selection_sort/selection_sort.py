@@ -3,6 +3,7 @@ from typing import List
 
 class SelectionSort:
     def __init__(self, data: List) -> None:
+    """""
         self.data = data
 
     def find_smallest_number(self) -> int:
