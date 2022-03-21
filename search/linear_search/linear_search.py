@@ -1,6 +1,5 @@
 from typing import List
 
-
 class LinearSearch:
 
     def __init__(self, data: List, item) -> None:
